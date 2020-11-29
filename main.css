@@ -10,12 +10,6 @@ body {
     z-index: 69;
 }
 
-/* #hellobox:hover {
-    transition: opacity 1s, visibility 1s;
-    opacity: 0;
-    visibility: hidden;
-} */
-
 #hello {
     font-family: cursive;
     font-size: calc(calc(2.5vw + 2.5vh) / 2);
