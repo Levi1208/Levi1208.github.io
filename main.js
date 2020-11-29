@@ -6,4 +6,3 @@ function hideHellobox() {
 }
 
 document.getElementById("hello").addEventListener("click", hideHellobox);
-//
