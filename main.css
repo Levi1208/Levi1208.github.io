@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#hellobox {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    visibility: visible;
+    z-index: 69;
+}
+
+/* #hellobox:hover {
+    transition: opacity 1s, visibility 1s;
+    opacity: 0;
+    visibility: hidden;
+} */
+
+#hello {
+    font-family: cursive;
+    font-size: calc(calc(2.5vw + 2.5vh) / 2);
+    color: white;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+}
+
+#rainbow {
+    display: inline-flex;
+    font-weight: bold;
+}
